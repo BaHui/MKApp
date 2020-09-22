@@ -1,0 +1,6 @@
+framework module MKProjectOne {
+  umbrella header "MKProjectOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

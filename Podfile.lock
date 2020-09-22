@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: ac904912bfa00db276abac73e8b1a0d16d31a7ba
+PODS:
+  - MKProjectOne (0.0.1)
+  - MKProjectTwo (0.0.1)
+
+DEPENDENCIES:
+  - MKProjectOne (from `Modulars/MKProjectOne`)
+  - MKProjectTwo (from `Modulars/MKProjectTwo`)
+
+EXTERNAL SOURCES:
+  MKProjectOne:
+    :path: Modulars/MKProjectOne
+  MKProjectTwo:
+    :path: Modulars/MKProjectTwo
+
+SPEC CHECKSUMS:
+  MKProjectOne: d5a6ef86affbaa8ee64273c5d12e5e36bc805508
+  MKProjectTwo: 7aec1294293434fccc1c6f4bb1785294fe0aac5e
+
+PODFILE CHECKSUM: f146b24189875d8ca4ae7862ba40ee56e603bfe5
 
 COCOAPODS: 1.9.1

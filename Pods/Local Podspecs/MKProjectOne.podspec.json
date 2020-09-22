@@ -1,0 +1,21 @@
+{
+  "name": "MKProjectOne",
+  "version": "0.0.1",
+  "summary": "MKModular of One",
+  "homepage": "https://github.com/QiaoBaHui/MKProjectOne",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "QiaoBaHui": "qiaobahui@mockuai.com"
+  },
+  "source": {
+    "git": "https://github.com/QiaoBaHui/MKProjectOne.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MKProjectOne/Classes/**/*"
+}

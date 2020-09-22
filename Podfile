@@ -7,12 +7,35 @@ inhibit_all_warnings!
 workspace 'MKApp.xcworkspace'
 project 'MKApp.xcodeproj'
 
-target 'MKApp' do
-  use_frameworks!
+#def one_project_pod
+#
+#end
 
+
+
+def project_one_pod
+  pod 'MKProjectOne', :path => 'Modulars/MKProjectOne'
 end
 
-# MKProjectOne Install
+def project_two_pod
+  pod 'MKProjectTwo', :path => 'Modulars/MKProjectTwo'
+end
+
+
+def development_pods
+  project_one_pod
+  project_two_pod
+end
+target 'MKApp' do
+  use_frameworks!
+  
+  development_pods
+end
+
+########################## Projects Install ##########################
+
+# MKProjectOne Project
+
 target 'MKProjectOne_Example' do
   use_frameworks!
   
@@ -20,7 +43,8 @@ target 'MKProjectOne_Example' do
 end
 
 
-# MKProjectTwo Install
+# MKProjectTwo Project
+
 target 'MKProjectTwo_Example' do
   use_frameworks!
   

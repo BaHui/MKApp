@@ -6,11 +6,15 @@
 //
 
 import UIKit
+import MKProjectOne
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    let mineViewController = MKMineViewController()
+    navigationController?.pushViewController(mineViewController, animated: true)
   }
   
 }

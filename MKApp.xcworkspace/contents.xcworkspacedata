@@ -8,9 +8,9 @@
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Modulars/MKProjectTwo/Example/MKProjectTwo.xcodeproj">
+      location = "group:Modulars/MKProjectOne/Example/MKProjectOne.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Modulars/MKProjectOne/Example/MKProjectOne.xcodeproj">
+      location = "group:Modulars/MKProjectTwo/Example/MKProjectTwo.xcodeproj">
    </FileRef>
 </Workspace>

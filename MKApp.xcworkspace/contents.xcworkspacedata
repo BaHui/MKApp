@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MKApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modulars/MKProjectTwo/Example/MKProjectTwo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modulars/MKProjectOne/Example/MKProjectOne.xcodeproj">
+   </FileRef>
+</Workspace>
